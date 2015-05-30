@@ -1,0 +1,27 @@
+{{!-- INCLUDE SITE HEADER --}}
+{{>site-header}}
+    <div class="page-content">
+        {{!-- INCLUDE PAGE TITLE --}}
+        <h1 class="page-title">{{ this.page.title }}</h1>
+        {{!-- INCLUDE THE CONTENT IN MARKDOWN --}}
+        {{#markdown}}
+            {{> body}}
+        {{/markdown}}
+
+        {{!-- GET ALL POSTS LIST IN THE FOOTER --}}
+            <nav class="site-footer-nav">
+                <div class="site-footer-nav-seperator"></div>
+                <div class="nav-links">
+                    {{#withSort post 'data.posted'}}
+                        {{#each this.pages }}
+                            <li class="site-footer-nav-item">
+                                <a href="{{ replaceStr this.dest 'dist' '' }}">{{ this.data.title }}</a>
+                            </li>
+                        {{/each}}
+                    {{/withSort}}
+                </div>
+            </nav>
+  </div>
+
+{{!-- INCLUDE SITE FOOTER --}}
+{{>site-footer}}

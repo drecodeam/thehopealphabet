@@ -1,0 +1,126 @@
+@import url(http://fonts.googleapis.com/css?family=Merriweather:400,700|Nats);
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Nats', sans-serif;
+    color: #DD937D;
+}
+
+h1 {
+    font-size: 33px;
+    color: #EC3549;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 27px;
+}
+
+h4 {
+    font-size: 24px;
+}
+
+h5 {
+    font-size: 21px;
+}
+
+
+
+a {
+    color: lighten( black, 20% );
+    border-bottom: 1px dotted lighten( black, 20% );
+    text-decoration: none;
+    &:hover {
+        color: #EC3549;
+    }
+}
+
+p {
+    color: lighten( black, 30% );
+}
+
+strong {
+    color: lighten( black, 10% );
+    font-weight: 700;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Merriweather', sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+}
+
+.header {
+    position: relative;
+    overflow: hidden;
+    padding: 50px 5%;
+    font-size: 0.6em;
+    color: darken( #FAFAFA, 10% );
+}
+
+.page-content {
+    padding: 10px 0;
+    max-width: 800px;
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+    .page-title {
+        font-size: 2em;
+        margin: 0;
+    }
+}
+
+
+blockquote {
+    position: relative;
+    overflow: hidden;
+    text-decoration: italics;
+}
+
+.site-footer-nav {
+    position: relative;
+    overflow: hidden;
+    list-style: none;
+    font-size: 0.8em;
+    color: lighten( black, 40% );
+    padding: 20px 0;
+    .site-footer-nav-seperator {
+        position: relative;
+        overflow: hidden;
+        clear: both;
+        width: 100px;
+        height: 5px;
+        background: lighten( #EC3549, 5% );
+        border-radius: 2px;
+        margin: 10px 0;
+    }
+    .nav-links {
+        position: relative;
+        overflow: hidden;
+        padding: 10px 0;
+        width: 700px;
+        .site-footer-nav-item {
+            position: relative;
+            display: inline-block;
+            padding: 0 10px;
+            margin: 10px 0;
+            border-right: 1px dotted darken( #f1f1f1,10% );
+            a {
+                color: inherit;
+                text-transform: lowercase;
+                border: none;
+                &:hover {
+                    color: #CC7B7B;
+                }
+            }
+
+        }
+    }
+}
