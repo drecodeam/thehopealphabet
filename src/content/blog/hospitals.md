@@ -3,9 +3,43 @@ title: "About Hospitals - their processes and doctors"
 post: true
 ---
 
+### Memorial Sloan Kettering Cancer Center
+
+If you are interested in making an appointment at Memorial Sloan Kettering, the first step is to complete and submit a [Service Request Form](https://www.mskcc.org/sites/default/files/node/6742/documents/international-patients-service-request-form.pdf)
+
++ For patients on active chemotherapy or radiation therapy, we encourage you complete the course of care before seeking an opinion.
++ It can only be based on the extent, quality, and quantity of information we receive.
++ It does not include direct communication with a Memorial Sloan Kettering doctor.
++ **We do not recommend a medical records review for patients who may need surgery**. For a surgical recommendation, we often require that the patient be evaluated in person so we can determine the most appropriate plan of care.
++ **The cost is US $2,000 for an initial review of records. A follow-up review costs US $1,750.**
++ After we receive your complete medical records, we will review them within three to five business days. Following this review, we will schedule your appointment within two to four weeks. The appointment date depends on the availability of the particular doctor. We will do everything we can to assist you in scheduling an appointment as quickly as possible.
+
+
+Financial Assistance Programme - [brochure](https://www.mskcc.org/sites/default/files/node/3725/documents/financial-assistance-english.pdf)
+
+That’s why our billing specialists are here to provide you with an estimate of your out-of-pocket expenses before you begin treatment.
+
+We base the estimate on the course of treatment recommended by your MSK doctor and your existing insurance coverage, taking into account your deductible and any co-insurance you may have.
+
+If you would like to arrange for a charge estimate, please call us at 646-888-1750 or email chargeestimatespbd@mskcc.org.
+
+#### Accomodations
+https://www.mskcc.org/locations/visiting-us/accommodations
+
+#### Doctors
+- https://www.mskcc.org/cancer-care/doctors/jay-boyle
+- https://www.mskcc.org/cancer-care/doctors/ian-ganly
+- https://www.mskcc.org/cancer-care/doctors/snehal-patel
+- **https://www.mskcc.org/cancer-care/doctors/jatin-shah**
+- **https://www.mskcc.org/cancer-care/doctors/ashok-shaha**
+
+
+
+
 
 ## MD Anderson
 
+[International center](http://www.mdanderson.org/patient-and-cancer-information/guide-to-md-anderson/international-center/index.html)
 [Internation center FAQ](http://www.mdanderson.org/patient-and-cancer-information/guide-to-md-anderson/international-center/frequently-asked-questions/index.html)
 
 
@@ -15,6 +49,8 @@ post: true
 Call: 001-713-745-0450
 E-mail: international@mdanderson.org
 Appointment form: [Request an Appointment](https://www2.mdanderson.org/sapp/contact/selfreferral/index.cfm)
+
+Checklist booklet for first appointment - https://www4.mdanderson.org/pe/index.cfm?pagename=opendoc&docid=2349
 
 A dedicated International Patient Assistant will contact you to gather:
 - Contact information, language spoken, country traveling from, etc.
@@ -35,6 +71,47 @@ A second opinion surgical pathology case review is available to any attending ph
 + Pathologists requesting a second opinion may send the surgical material directly to us. The minimum charge for a consultation and report on referred slides prepared elsewhere is $272.  Any additional testing that is necessary to render a diagnosis will be charged in addition to this fee.
 
 [form](http://www.mdanderson.org/education-and-research/resources-for-professionals/clinical-tools-and-resources/pathology-second-opinion-and-consultation-services/outside-consultative-service/international-pathology-consultation.pdf)
+
+### Doctors & Staff
+
+[Head and neck department](http://www.mdanderson.org/patient-and-cancer-information/care-centers-and-clinics/care-centers/head-neck/doctors/index.html)
+
+
+**Head & Neck Surgery**
+
++ Randal S. Weber, M.D., F.A.C.S.
++ Gary L. Clayman, D.M.D., M.D., F.A.C.S.
++ Eduardo M. Diaz, Jr., M.D., F.A.C.S.
++ Paul W. Gidley, M.D., F.A.C.S.
++ Ann M. Gillenwater, M.D., F.A.C.S.
++ Neil D. Gross, M.D., F.A.C.S.
++ Ehab Y. Hanna, M.D, F.A.C.S.
++ Amy C. Hessel, M.D., F.A.C.S.
++ Michael E. Kupferman, M.D.,F.A.C.S.
++ Stephen Y. Lai, M.D., Ph.D., F.A.C.S.
++ Carol M. Lewis, M.D., M.P.H.
++ Jeffrey N. Myers, M.D., Ph.D., F.A.C.S.
++ Kristen B. Pytynia, M.D., M.P.H.
++ Erich Madison Sturgis, M.D., M.P.H., F.A.C.S.
++ Shirley Y. Su, M.D., FRACS
++ Mark Zafereo, M.D., F.A,C.S.
+
+**Medical Oncology**
+
++ George R. Blumenschein, Jr., M.D.
++ Lauren A. Byers. M.D.
++ Bonnie S. Glisson, M.D., F.A.C.P.
++ Kathryn Gold, M.D.
++ Faye M. Johnson, M.D., Ph.D.
++ Merrill S. Kies, M.D.
++ Charles Lu, M.D.
++ Erminia Massarelli, M.D., Ph.D.
++ Vassiliki Papadimitrakopoulou, M.D.
++ William N. William, Jr., M.D.
+
+
+
+
 
 
 ### Visa information

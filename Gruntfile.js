@@ -22,7 +22,8 @@ module.exports = function (grunt) {
         collections: [{
           name      : 'post',
           sortby    : 'posted',
-          sortorder : 'descending'
+          sortorder : 'descending',
+          engine : 'Handlebars'
         }],
         helpers   : './src/bonnet/helpers/**/*.js',
         layout    : 'page.hbs',
@@ -34,7 +35,7 @@ module.exports = function (grunt) {
           cwd     : './src/content/',
           dest    : './dist/',
           expand  : true,
-          src     : ['**/*.hbs', '!_pages/**/*.hbs']
+          src     : ['**/*.md', '!_pages/**/*.md']
         }, {
           cwd     : './src/content/_pages/',
           dest    : './dist/',
@@ -64,11 +65,11 @@ module.exports = function (grunt) {
         tasks: ['sass'],
       },
       posts : {
-        files : './src/content/**/*.hbs',
+        files : './src/content/**/*.md',
         tasks : ['assemble']
       },
       layout : {
-        files : './src/bonnet/**/*.hbs',
+        files : './src/bonnet/**/*.md',
         tasks : ['assemble']
       }
 
