@@ -1,0 +1,92 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'assemble-markdown',
+1 verbose cli   '--save-dev' ]
+2 info using npm@1.4.21
+3 info using node@v0.10.30
+4 verbose readDependencies using package.json deps
+5 verbose cache add [ 'assemble-markdown', null ]
+6 verbose cache add name=undefined spec="assemble-markdown" args=["assemble-markdown",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'assemble-markdown',
+7 verbose parsed url   path: 'assemble-markdown',
+7 verbose parsed url   href: 'assemble-markdown' }
+8 silly lockFile 69ea84e4-assemble-markdown assemble-markdown
+9 verbose lock assemble-markdown /Users/drecode/.npm/69ea84e4-assemble-markdown.lock
+10 silly lockFile 69ea84e4-assemble-markdown assemble-markdown
+11 silly lockFile 69ea84e4-assemble-markdown assemble-markdown
+12 verbose addNamed [ 'assemble-markdown', '' ]
+13 verbose addNamed [ null, '*' ]
+14 silly lockFile a6a0e5be-assemble-markdown assemble-markdown@
+15 verbose lock assemble-markdown@ /Users/drecode/.npm/a6a0e5be-assemble-markdown.lock
+16 silly addNameRange { name: 'assemble-markdown', range: '*', hasData: false }
+17 verbose request where is /assemble-markdown
+18 verbose request registry https://registry.npmjs.org/
+19 verbose request id 7f954c4b25a79471
+20 verbose url raw /assemble-markdown
+21 verbose url resolving [ 'https://registry.npmjs.org/', './assemble-markdown' ]
+22 verbose url resolved https://registry.npmjs.org/assemble-markdown
+23 verbose request where is https://registry.npmjs.org/assemble-markdown
+24 info trying registry request attempt 1 at 10:45:19
+25 http GET https://registry.npmjs.org/assemble-markdown
+26 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+27 info trying registry request attempt 2 at 10:46:46
+28 http GET https://registry.npmjs.org/assemble-markdown
+29 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+30 info trying registry request attempt 3 at 10:49:04
+31 http GET https://registry.npmjs.org/assemble-markdown
+32 http 404 https://registry.npmjs.org/assemble-markdown
+33 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+33 verbose headers   'content-type': 'application/json',
+33 verbose headers   'cache-control': 'max-age=0',
+33 verbose headers   'content-length': '51',
+33 verbose headers   'accept-ranges': 'bytes',
+33 verbose headers   date: 'Mon, 01 Jun 2015 05:19:06 GMT',
+33 verbose headers   via: '1.1 varnish',
+33 verbose headers   age: '0',
+33 verbose headers   connection: 'keep-alive',
+33 verbose headers   'x-served-by': 'cache-sin6921-SIN',
+33 verbose headers   'x-cache': 'MISS',
+33 verbose headers   'x-cache-hits': '0',
+33 verbose headers   'x-timer': 'S1433135945.936003,VS0,VE212' }
+34 silly registry.get cb [ 404,
+34 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+34 silly registry.get     'content-type': 'application/json',
+34 silly registry.get     'cache-control': 'max-age=0',
+34 silly registry.get     'content-length': '51',
+34 silly registry.get     'accept-ranges': 'bytes',
+34 silly registry.get     date: 'Mon, 01 Jun 2015 05:19:06 GMT',
+34 silly registry.get     via: '1.1 varnish',
+34 silly registry.get     age: '0',
+34 silly registry.get     connection: 'keep-alive',
+34 silly registry.get     'x-served-by': 'cache-sin6921-SIN',
+34 silly registry.get     'x-cache': 'MISS',
+34 silly registry.get     'x-cache-hits': '0',
+34 silly registry.get     'x-timer': 'S1433135945.936003,VS0,VE212' } ]
+35 silly lockFile a6a0e5be-assemble-markdown assemble-markdown@
+36 silly lockFile a6a0e5be-assemble-markdown assemble-markdown@
+37 error 404 404 Not Found: assemble-markdown
+37 error 404
+37 error 404 'assemble-markdown' is not in the npm registry.
+37 error 404 You should bug the author to publish it
+37 error 404 It was specified as a dependency of 'assemble-blog-template'
+37 error 404
+37 error 404 Note that you can also install from a
+37 error 404 tarball, folder, or http url, or git url.
+38 error System Darwin 14.3.0
+39 error command "node" "/usr/local/bin/npm" "install" "assemble-markdown" "--save-dev"
+40 error cwd /Users/drecode/Documents/rednotebook
+41 error node -v v0.10.30
+42 error npm -v 1.4.21
+43 error code E404
+44 verbose exit [ 1, true ]

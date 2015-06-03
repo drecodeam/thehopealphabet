@@ -1,61 +1,5 @@
-@import url(http://fonts.googleapis.com/css?family=Merriweather:400,700|Nats);
-
-h1,
-h2,
-h3,
-h4,
-h5 {
-    font-family: 'Nats', sans-serif;
-    color: #DD937D;
-}
-
-h1 {
-    font-size: 33px;
-    color: #EC3549;
-}
-
-h2 {
-    font-size: 30px;
-}
-
-h3 {
-    font-size: 27px;
-}
-
-h4 {
-    font-size: 24px;
-}
-
-h5 {
-    font-size: 21px;
-}
-
-
-
-a {
-    color: lighten( black, 20% );
-    border-bottom: 1px dotted lighten( black, 20% );
-    text-decoration: none;
-    &:hover {
-        color: #EC3549;
-    }
-}
-
-p {
-    color: lighten( black, 30% );
-}
-
-strong {
-    color: lighten( black, 10% );
-    font-weight: 700;
-}
-
-body {
-    font-size: 16px;
-    font-family: 'Merriweather', sans-serif;
-    line-height: 1.5;
-    font-weight: 400;
-}
+@import 'harmon';
+@import 'type';
 
 .header {
     position: relative;
@@ -71,10 +15,33 @@ body {
     position: relative;
     overflow: hidden;
     margin: 0 auto;
-    .page-title {
-        font-size: 2em;
-        margin: 0;
-    }
+}
+
+.page-title {
+    margin: 0;
+    // color: darken( #EC3549, 15% );
+    color: lighten( #3c3c3c, 50% );
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    border: none;
+    padding: 0;
+}
+.page-subtitle {
+    margin: 0;
+    color: lighten( #3c3c3c, 20% );
+    border: none;
+    padding: 0;
+    text-align: left;
+}
+
+.page-divider {
+    position: relative;
+    overflow: hidden;
+    width: 40%;
+    height: 8px;
+    background: #FFC535;
+    border-radius: 2px;
+    margin: 60px 0;
 }
 
 
@@ -131,6 +98,7 @@ blockquote {
   overflow: hidden;
   margin: 40px auto 0 auto;
   height: auto;
+  display: none;
   .begood-canvas {
     position: relative;
     overflow: hidden;

@@ -3,6 +3,8 @@
     <div class="page-content">
         {{!-- INCLUDE PAGE TITLE --}}
         <h1 class="page-title">{{ this.page.title }}</h1>
+        <h3 class="page-subtitle">{{ this.page.subtitle }}</h3>
+        <div class="page-divider"></div>
         {{!-- INCLUDE THE CONTENT IN MARKDOWN --}}
         {{#markdown}}
             {{> body}}
