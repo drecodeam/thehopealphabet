@@ -48,7 +48,13 @@
 blockquote {
     position: relative;
     overflow: hidden;
-    text-decoration: italics;
+    font-weight: 400;
+    font-family: 'Open Sans';
+    // color: lighten( #3c3c3c, 50% );
+    // color: #EC3549;
+    margin: 1em 1em 1em 3em;
+    padding-left: 1em;
+    border-left: 4px solid #EC3549;
 }
 
 .site-footer-nav {

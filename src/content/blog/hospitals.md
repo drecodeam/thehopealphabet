@@ -118,7 +118,7 @@ A second opinion surgical pathology case review is available to any attending ph
 ### Visa information
 Once you have been accepted as a patient,
 
-**You will receive a packet of information that includes a visa letter from your International Patient Assistant. This document verifies your appointment at MD Anderson and estimates the time needed for your initial evaluation and treatment. This letter must be taken to a U.S. embassy or consulate when you apply for a visa.**
+>You will receive a packet of information that includes a visa letter from your International Patient Assistant. This document verifies your appointment at MD Anderson and estimates the time needed for your initial evaluation and treatment. This letter must be taken to a U.S. embassy or consulate when you apply for a visa.
 
 **The International Center at MD Anderson strongly recommends that you obtain a B1 or B2 visa in case there is a need to change or extend your stay, which is always possible.** The initial trip to MD Anderson may only require a short stay, but it is important to have the necessary flexibility to stay longer once treatment is recommended. The B1 (business) and B2 (pleasure) visa provide this flexibility when traveling to the United States for medical reasons. Under a B1 or B2 visa, the initial period of stay may be granted for up to a six-month period based on your I-94 status granted by the immigration officials upon arrival and can be extended for a fee.
 
