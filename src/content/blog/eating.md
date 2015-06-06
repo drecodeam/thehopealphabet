@@ -1,7 +1,9 @@
 ---
-title: "eating in cancer"
+title: eating in cancer
 post: true
+published: true
 ---
+
 
 ### Healthy eating for cancer patients
 
@@ -116,7 +118,7 @@ Raisin bran 3/4 cup 4.8
 
 #### High-calorie foods
 
-For some people, it can be difficult to get enough calories to stay strong during cancer treatment. If you need to concentrate on keeping your weight up, here are some healthy, high-calorie foods.
+> For some people, it can be difficult to get enough calories to stay strong during cancer treatment. If you need to concentrate on keeping your weight up, here are some healthy, high-calorie foods.
 
 **Fruits**
 
