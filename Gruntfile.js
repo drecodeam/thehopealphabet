@@ -1,7 +1,7 @@
 module.exports = function (grunt) {
   'use strict';
 
-  require('load-grunt-tasks')(grunt);
+  require('load-grunt-tasks')(grunt, {pattern: ['grunt-*', 'assemble']});
 
   grunt.initConfig({
     pkg: grunt.file.readJSON( './package.json' ),
@@ -44,7 +44,6 @@ module.exports = function (grunt) {
         }]
       }
     },
-
     // SASS compiling
     sass: {
       options: {
@@ -52,7 +51,26 @@ module.exports = function (grunt) {
       },
       dist: {
         files: {
-          './dist/assets/css/main.css': './src/bonnet/sass/main.scss'
+          './dist/assets/css/main.css': './src/bonnet/sass/main.scss',
+          './dist/assets/css/cupcake.css': './src/bonnet/sass/cupcake.scss'
+        }
+      }
+    },
+    uglify: {
+      my_target: {
+        files: {
+          './dist/assets/js/source.min.js': ['./src/bonnet/js/source/**/*.js'],
+          './dist/assets/js/vendor.min.js': ['./src/bonnet/js/vendor/**/*.js']
+        }
+      }
+    },
+    handlebars: {
+      compile: {
+        options: {
+          namespace: "rednotebook"
+        },
+        files: {
+          "./dist/assets/templates/template.js": "./src/bonnet/template/**/*.hbs",
         }
       }
     },
@@ -69,16 +87,19 @@ module.exports = function (grunt) {
         tasks : ['assemble']
       },
       layout : {
-        files : './src/bonnet/**/*.md',
+        files : [ './src/bonnet/layouts/**/*.hbs', './src/bonnet/partials/**/*.hbs' ],
         tasks : ['assemble']
+      },
+      js : {
+        files : './src/bonnet/js/**/*.js',
+        tasks : ['uglify']
+      },
+      handlebars : {
+        files : './src/bonnet/template/**/*.hbs',
+        tasks : ['handlebars']
       }
-
     }
   });
-
-  /* load every plugin in package.json */
-  grunt.loadNpmTasks('grunt-contrib-connect');
-  grunt.loadNpmTasks('assemble');
 
   /* grunt tasks */
   grunt.registerTask('default', ['assemble', 'sass', 'connect' ]);
