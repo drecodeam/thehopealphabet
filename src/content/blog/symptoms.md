@@ -1,9 +1,25 @@
 ---
-title: "Symptoms"
+title: "SIDE EFFECTS AND CURE"
 post: true
+categories:
+- food
+- symptoms
 ---
 
-##SIDE EFFECTS AND CURE
+#### why does chemotherapy have side effects ?
+Cancer cells tend to grow fast, and chemo drugs kill fast-growing cells. But because these drugs travel throughout the body, they can affect normal, healthy cells that are fast-growing, too. Damage to healthy cells causes side effects.
+
+The normal cells most likely to be damaged by chemo are blood-forming cells in the bone marrow; hair follicles; and cells in the mouth, digestive tract, and reproductive system. Some chemo drugs can damage cells in the heart, kidneys, bladder, lungs, and nervous system.
+
+#### does everyone get the same side effect ?
+Every person doesn’t get every side effect, and some people get few, if any.
+The severity of side effects (how “bad” they are) varies greatly from person to person. Be sure to talk to your doctor and nurse about which side effects are most common with your chemo, how long they might last, how bad they might be, and when you should call the doctor’s office about them
+
+#### how long will the side effects last ?
+Most side effects slowly go away after treatment ends because the healthy cells recover over time. The time it takes to get over some side effects and regain energy varies from person to person. It depends on many factors, including your overall health and the drugs you were given.
+
+Many side effects go away fairly quickly, but some may take months or even years to completely go away. Sometimes the side effects can last a lifetime, such as when chemo causes long-term damage to the heart, lungs, kidneys, or reproductive organs. Certain types of chemo sometimes cause delayed effects, such as a second cancer that may show up many years later.
+
 
 **Bitter or Metallic taste**
 
@@ -50,18 +66,6 @@ To keep mealtime interesting, vary the time, place and surroundings. You may fin
 
 + Consult with a dietitian. A dietitian can help you make changes in food choice
 and preparations to minimize the impact of taste changes and help you meet your calorie and protein needs. Your dietitian may recommend appetite stimulants or vitamins and supplements, such as zinc sulfate. If you can’t eat solid foods, your dietitian may recommend liquid or powdered meal replacements and shakes.
-
-
-
-
-
-
-
-
-
-
-
-
 
 **Swallowing problems**
 

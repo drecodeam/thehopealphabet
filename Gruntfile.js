@@ -19,28 +19,30 @@ module.exports = function (grunt) {
     /* assemble templating */
     assemble: {
       options: {
-        collections: [{
-          name      : 'post',
-          sortby    : 'posted',
-          sortorder : 'descending',
-          engine : 'Handlebars'
-        }],
+        layout    : './src/bonnet/layouts/article.hbs',
         helpers   : './src/bonnet/helpers/**/*.js',
-        layout    : 'page.hbs',
-        layoutdir : './src/bonnet/layouts/',
         partials  : './src/bonnet/partials/**/*'
       },
-      posts: {
+      testing: {
+        options : {
+          layout    : './src/bonnet/layouts/article.hbs',
+        },
         files: [{
-          cwd     : './src/content/',
-          dest    : './dist/',
+          cwd     : './src/content/blog',
+          dest    : './dist/blog',
           expand  : true,
-          src     : ['**/*.md', '!_pages/**/*.md']
-        }, {
-          cwd     : './src/content/_pages/',
-          dest    : './dist/',
+          src     : ['**/*.md']
+        }]
+      },
+      pages : {
+        options : {
+          layout    : './src/bonnet/layouts/page.hbs',
+        },
+        files: [{
+          cwd     : './src/content/_pages',
+          dest    : './dist',
           expand  : true,
-          src     : '**/*.hbs'
+          src     : ['**/*.hbs']
         }]
       }
     },
@@ -68,8 +70,12 @@ module.exports = function (grunt) {
         files : './src/content/**/*.md',
         tasks : ['assemble']
       },
+      pages : {
+        files : './src/content/**/*.hbs',
+        tasks : ['assemble']
+      },
       layout : {
-        files : './src/bonnet/**/*.md',
+        files : './src/bonnet/**/*.hbs',
         tasks : ['assemble']
       }
 

@@ -1,7 +1,9 @@
 ---
-title: eating in cancer
+title: healthy eating for cancer patients
 post: true
 published: true
+categories:
+- food
 ---
 
 
@@ -21,11 +23,6 @@ this general pattern of eating provides vitamins, minerals, and protective and n
 - Zinc
 - Vitamin E
 
-**Proteins**
-
-Everyone, and certainly those who have been diagnosed with cancer, must consume adequate calories and appropriate amounts of protein for cellular regeneration. After all, if you don't make enough red blood cells you will feel weak and tire easily and if you don't make enough white blood cells you will have a tough time fighting off even the mildest of colds.
-
-The word "protein" comes from the Greek root meaning "of first importance". Indeed, protein is needed for every cell in the body and is critical for nutritional well being. The key is determining how much protein you need. Too much protein may tax the kidneys and too little protein may lead to malnutrition. Most healthy adults need between 45 and 60 grams of complete protein per day, which should account for 10 to 15 percent of their daily caloric intake. Adjustments may need to be made for specific disease states. Check with your nutritionist to see what your protein requirements are.
 
 **Fibers**
 
@@ -168,28 +165,3 @@ Also known as seed foods. These foods have a unique ability to envelop tumor cel
 **Others**
 
 Apples, apricots, barley, citrus fruit, cranberries, fiber, figs, fish oil, fish, ginger, green tea, spinach and seaweed have the ability to slow tumor growth in various ways.
-
-
-#### Eating do's and don'ts
-
-+ Most of us feel that to eat healthy, we must give up the taste, costs and convenience of typical American food; not true. Here is a list of simple do’s and don’ts for healthy eating.
-
-+ DON’T rely on pills for nutrition. Taking one-a-day with a Wendy’s triple and large fries just isn’t going to cut it. Supplements should be taken with good food, not instead of good food.
-
-+ DO drink water. It may be bland next to Coke, Pepsi and coffee, but the cells in your body don’t think so. Water is the most essential nutrient for them. Try adding lemon or lime slices for flavor.
-
-+ DON’T walk around dehydrated. If your urine is deep in color or has a strong odor, you need to drink more water.
-
-+ DO eat “mixed” food for breakfast such as those containing a little carbohydrate, a little protein and a little fat. For example: Eggs and a bowl of fruit or a protein shake with soy milk and a banana.
-
-+ DON’T eat sugary foods in the morning. A burst of refined sugar on an empty stomach will trigger a flood of insulin which will suppress the immune system, and feed any abnormal cells which are common in everyone’s body.
-
-+ DO eat less fat. The average American eats the equivalent of a stick of margarine a day, most of which is hidden in processed foods. Some examples are club crackers, frozen pot pies, potato chips, pastries such as doughnuts and croissants, and snack cakes. Of the fat you do eat, consumer a higher proportion from plant oils like olive oil and canola oil.
-
-+ DON’T eat daily amounts of corn oil and soybean oil, especially if hydrogenated. These fats are immune suppressive and researchers are linking hydrogenated fats to increased free radicals (destructive to cells). Butter is a better choice than margarine.
-
-+ DO increase the amount of fiber in your diet. Daily “detoxing” of the colon is important in maintaining good health. There are many high fiber pills, wafers, crackers and powders that are so easy to work into a busy lifestyle. High-quality fibers such as psyllium seed, psyllium husk, oat bran, mucilages, gums and pectin should be found on the label of the product you choose. Remember to drink more water while increasing fiber in your diet.
-
-+ DON’T expect to get more fiber by eating iceberg or head lettuce, it has miniscule amounts of fiber. The same with white grapes, corn, cucumbers and celery. Some quick, simple high-fiber foods are dried figs, bananas, raisins, prunes, fresh oranges and dried dates – a good substitute for a candy bar.
-
-+ DO eat nutrient dense foods everyday. Regularly consume yogurt, deep orange vegetables (carrots, squash, sweet potatoes), vegetables in the cabbage family, tomatoes, citrus fruit and dark green leafy vegetables. Remember to go for the color. The deeper the color of fruit or veggie, the more nutrients.
