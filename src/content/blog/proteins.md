@@ -18,3 +18,11 @@ Most healthy adults need between 45 and 60 grams of complete protein per day, wh
 
 #### what all has proteins ?
 Good sources of protein include fish, poultry, lean red meat, eggs, low-fat dairy products, nuts and nut butters, dried beans, peas and lentils, and soy foods.
+
++ Milk products
++ Cheese/butter
++ Yogurt
++ Eggs
++ Meats, poultry, and fish
++ Beans, legumes, nuts, and seeds
+

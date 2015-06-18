@@ -10,6 +10,20 @@ categories:
 
 + DO drink water. It may be bland next to Coke, Pepsi and coffee, but the cells in your body don’t think so. Water is the most essential nutrient for them. Try adding lemon or lime slices for flavor.
 
++ Eat several small snacks throughout the day, rather than 3 large meals.
+
++ Eat your favorite foods at any time of the day. For example, eat breakfast foods for dinner if they appeal to you.
+
++ Eat every few hours. Don’t wait until you feel hungry.
+
++ Exercise lightly or take a walk before meals to increase your appetite.
+
++ Drink high-calorie, high-protein beverages like milk shakes and canned liquid supplements.
+
++ Drink most of your fluids between meals instead of with meals. Drinking fluid with meals can make you feel too full.
+
+
+
 + DO eat “mixed” food for breakfast such as those containing a little carbohydrate, a little protein and a little fat. For example: Eggs and a bowl of fruit or a protein shake with soy milk and a banana.
 
 + DO eat less fat. The average American eats the equivalent of a stick of margarine a day, most of which is hidden in processed foods. Some examples are club crackers, frozen pot pies, potato chips, pastries such as doughnuts and croissants, and snack cakes. Of the fat you do eat, consumer a higher proportion from plant oils like olive oil and canola oil.
