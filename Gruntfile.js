@@ -3,9 +3,19 @@ module.exports = function (grunt) {
 
   require('load-grunt-tasks')(grunt);
 
+  var paths = {
+    sourceBase   : './src',
+    buildBase    : './dist',
+    sourceAssets : './src/bonnet',
+    buildAssets  : './dist/assets',
+    postsSource  : './src/content/blog',
+    postsBuild   : './dist/blog',
+    pagesSource  : './src/content/_pages',
+  };
+
   grunt.initConfig({
     pkg: grunt.file.readJSON( './package.json' ),
-
+    paths : paths,
     connect: {
       dev: {
         options: {
@@ -19,28 +29,28 @@ module.exports = function (grunt) {
     /* assemble templating */
     assemble: {
       options: {
-        layout    : './src/bonnet/layouts/article.hbs',
-        helpers   : './src/bonnet/helpers/**/*.js',
-        partials  : './src/bonnet/partials/**/*'
+        layout    : '<%= paths.sourceAssets %>/layouts/article.hbs',
+        helpers   : '<%= paths.sourceAssets %>/helpers/**/*.js',
+        partials  : '<%= paths.sourceAssets %>/partials/**/*'
       },
-      testing: {
+      eating: {
         options : {
-          layout    : './src/bonnet/layouts/article.hbs',
+          layout    : '<%= paths.sourceAssets %>/layouts/eating.hbs',
         },
         files: [{
-          cwd     : './src/content/blog',
-          dest    : './dist/blog',
+          cwd     : '<%= paths.postsSource %>/eating',
+          dest    : '<%= paths.postsBuild %>/eating',
           expand  : true,
           src     : ['**/*.md']
         }]
       },
       pages : {
         options : {
-          layout    : './src/bonnet/layouts/page.hbs',
+          layout    : '<%= paths.sourceAssets %>/layouts/page.hbs',
         },
         files: [{
-          cwd     : './src/content/_pages',
-          dest    : './dist',
+          cwd     : paths.pagesSource,
+          dest    : paths.buildBase,
           expand  : true,
           src     : ['**/*.hbs']
         }]
@@ -54,7 +64,7 @@ module.exports = function (grunt) {
       },
       dist: {
         files: {
-          './dist/assets/css/main.css': './src/bonnet/sass/main.scss'
+          '<%= paths.buildAssets %>/css/main.css': '<%= paths.sourceAssets %>/sass/main.scss'
         }
       }
     },
@@ -63,27 +73,28 @@ module.exports = function (grunt) {
         livereload: true,
       },
       css: {
-        files: './src/bonnet/sass/*.scss',
+        files: '<%= paths.sourceAssets %>/sass/*.scss',
         tasks: ['sass'],
       },
       posts : {
-        files : './src/content/**/*.md',
+        files : paths.postsSource,
         tasks : ['assemble']
       },
       pages : {
-        files : './src/content/**/*.hbs',
+        files : paths.pagesSource,
         tasks : ['assemble']
       },
       layout : {
-        files : './src/bonnet/**/*.hbs',
+        files : '<%= paths.sourceAssets %>/layouts/**/*.hbs',
         tasks : ['assemble']
+      },
+      grunt: {
+          files: ['Gruntfile.js']
       }
-
     }
   });
 
   /* load every plugin in package.json */
-  grunt.loadNpmTasks('grunt-contrib-connect');
   grunt.loadNpmTasks('assemble');
 
   /* grunt tasks */

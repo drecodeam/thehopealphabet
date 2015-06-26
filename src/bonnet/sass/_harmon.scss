@@ -7,8 +7,8 @@
 @import "harmon/ratios";
 
 // Settings
-$base:  16px;
-$ratio: $perfect-fourth;
+$base:  16px !default;
+$ratio: $perfect-fourth !default;
 
 @import "harmon/scale";
 @import "harmon/functions";
