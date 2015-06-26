@@ -1,0 +1,29 @@
+{
+  "name": "assemble-blog-template",
+  "version": "0.0.1",
+  "description": "Assemble Blog Template for use alongside http://www.andismith.com/blog/2014/01/getting-started-with-assemble/",
+  "author": {
+    "name": "andismith",
+    "email": "andi.smith.uk@gmail.com",
+    "url": "http://www.andismith.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andismith/assemble-blog-template.git"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "assemble": "~0.4.35",
+    "grunt": "~0.4.1",
+    "grunt-contrib-connect": "~0.6.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-metalsmith": "^1.0.0",
+    "grunt-sass": "^1.0.0",
+    "load-grunt-tasks": "^3.2.0",
+    "metalsmith-collections": "^0.7.0",
+    "metalsmith-partial": "^0.1.0",
+    "metalsmith-pdf": "^1.1.2",
+    "metalsmith-permalinks": "^0.4.0",
+    "metalsmith-typography": "^0.1.1"
+  }
+}
