@@ -1,6 +1,7 @@
 ---
 title: "Rough"
-post: true
+template : article.html
+collection : rough
 ---
 
 ### Random stuff

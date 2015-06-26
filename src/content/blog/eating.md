@@ -1,9 +1,7 @@
 ---
 title: healthy eating for cancer patients
-post: true
-published: true
-categories:
-- food
+template : article.html
+collection : eating
 ---
 
 

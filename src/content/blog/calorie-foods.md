@@ -1,9 +1,7 @@
 ---
 title: high calorie foods
-post: true
-published: true
-categories:
-- food
+template : article.html
+collection : eating
 ---
 
 + Butter

@@ -1,9 +1,7 @@
 ---
 title: "SIDE EFFECTS AND CURE"
-post: true
-categories:
-- food
-- symptoms
+template : article.html
+collection : symptoms
 ---
 
 #### why does chemotherapy have side effects ?

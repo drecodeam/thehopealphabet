@@ -1,6 +1,7 @@
 ---
 title: "cancer blogs/websites to follow"
-post: true
+template : article.html
+collection : rough
 ---
 
 

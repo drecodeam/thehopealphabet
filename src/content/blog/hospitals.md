@@ -1,7 +1,7 @@
 ---
 title: "Hospitals"
-subtitle : "Their processes and doctors"
-post: true
+template : article.html
+collection : rough
 ---
 
 ## Memorial Sloan Kettering Cancer Center

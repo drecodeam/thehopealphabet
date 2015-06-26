@@ -1,9 +1,8 @@
 ---
 title: proteins
 post: true
-published: true
-categories:
-- food
+template : article.html
+collection : eating
 ---
 
 #### why does my body need proteins ?

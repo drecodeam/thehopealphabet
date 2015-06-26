@@ -1,9 +1,7 @@
 ---
 title: fats
-post: true
-published: true
-categories:
-- food
+template : article.html
+collection : eating
 ---
 
 #### why does my body need fats ?

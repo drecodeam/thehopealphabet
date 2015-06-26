@@ -1,9 +1,7 @@
 ---
 title: tips for eating
-post: true
-published: true
-categories:
-- food
+template : article.html
+collection : eating
 ---
 
 #### what you should do.

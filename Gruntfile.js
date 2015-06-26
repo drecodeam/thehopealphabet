@@ -25,38 +25,37 @@ module.exports = function (grunt) {
         }
       }
     },
-
-    /* assemble templating */
-    assemble: {
-      options: {
-        layout    : '<%= paths.sourceAssets %>/layouts/article.hbs',
-        helpers   : '<%= paths.sourceAssets %>/helpers/**/*.js',
-        partials  : '<%= paths.sourceAssets %>/partials/**/*'
-      },
-      eating: {
-        options : {
-          layout    : '<%= paths.sourceAssets %>/layouts/eating.hbs',
+    metalsmith: {
+      staticSiteExample: {
+        options: {
+          metadata: {
+            title: 'The hope alphabet'
+          },
+          plugins: {
+            'metalsmith-markdown': {
+              "gfm": true,
+            },
+            'metalsmith-partial' : {
+              engine : 'handlebars',
+              directory : '<%= paths.sourceAssets %>/partials'
+            },
+            'metalsmith-templates': {
+              engine: 'handlebars',
+              directory : '<%= paths.sourceAssets %>/templates'
+            },
+            "metalsmith-collections": {
+              "articles": {
+                "pattern": '<%= paths.postsSource %>/*.md',
+                "sortBy": "date",
+                "reverse": true
+              }
+            },
+          }
         },
-        files: [{
-          cwd     : '<%= paths.postsSource %>/eating',
-          dest    : '<%= paths.postsBuild %>/eating',
-          expand  : true,
-          src     : ['**/*.md']
-        }]
-      },
-      pages : {
-        options : {
-          layout    : '<%= paths.sourceAssets %>/layouts/page.hbs',
-        },
-        files: [{
-          cwd     : paths.pagesSource,
-          dest    : paths.buildBase,
-          expand  : true,
-          src     : ['**/*.hbs']
-        }]
+        src: paths.sourceBase,
+        dest: paths.buildBase
       }
     },
-
     // SASS compiling
     sass: {
       options: {
